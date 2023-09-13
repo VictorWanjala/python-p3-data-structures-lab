@@ -62,4 +62,9 @@ def get_average_heat_level(spicy_foods):
 print(get_average_heat_level(spicy_foods))
 
 def create_spicy_food(spicy_foods, spicy_food):
-    pass
+    modified_spicy_foods = spicy_foods.copy()
+    modified_spicy_foods.append(spicy_food)
+    return modified_spicy_foods
+
+
+
